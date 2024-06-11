@@ -1,0 +1,277 @@
+/* ...........................................................All Common CSS Start  ..................................................................*/
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  display: flex;
+}
+/* ................................................................All Common CSS End  ...........................................................................*/
+
+
+/* .................................................................All Header Part Start  ........................................................................*/
+#header {
+  background-color: #fae3b6;
+}
+.logo_with_menu_btn {
+  display: flex;
+}
+.logo {
+  width: 150px;
+  padding-top: 50px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+.menu {
+  width: 850px;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+}
+.menu ul li a {
+  padding: 0 35px;
+  line-height: 140px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+.btn {
+  width: 370px;
+  padding-top: 50px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+.btn a {
+  padding: 18px 33px;
+  border: 2px solid #ffd687;
+  border-radius: 10px;
+  transition: 0.4s;
+  margin-right: 10px;
+}
+.btn a:hover {
+  background-color: #fdbb57;
+}
+/* ...................................................................All Header Part End  ...........................................................................*/
+
+
+/* ....................................................................Banner Part Start  ...............................................................................*/
+#banner_part {
+  background-color: #fae3b6;
+  padding: 130px 0;
+}
+.left_and_right {
+  display: flex;
+}
+.left {
+  width: 50%;
+}
+.left h1 {
+  padding-right: 200px;
+  font-size: 64px;
+  line-height: 90px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+.left p {
+  padding-right: 150px;
+  font-size: 22px;
+  line-height: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: black;
+}
+.left,
+h1,p {
+  padding-bottom: 25px;
+}
+.left a button {
+  width: 320px;
+  height: 80px;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 50px 0;
+  transition: 0.4s;
+}
+.left a button:hover {
+  background-color: white;
+  color: blue;
+}
+.right {
+  width: 50%;
+}
+/* .......................................................................Banner Part End  ................................................................................*/
+
+
+/* .......................................................................All Text Part Start  ...........................................................................*/
+.text {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+.text h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  padding-top: 150px;
+}
+/* ........................................................................All Text Part End ............................................................................. */
+
+
+/* ......................................................................All Picture Part Start  ........................................................................*/
+#picture_part {
+  background-color: white;
+  height: 460px;
+}
+.model1_model2_model3 {
+  display: flex;
+}
+.model1 {
+  width: 450px;
+}
+.model2 {
+  width: 450px;
+}
+.model3 {
+  width: 400px;
+}
+/* .........................................................................All Picture Part End  ........................................................................*/
+
+
+/* .........................................................................All Midle Part Start  .........................................................................*/
+#middle_part {
+  background-color: white;
+  height: 1000px;
+  margin-top: 100px;
+  position: relative;
+  z-index: -4;
+}
+.dot {
+position: absolute;
+right: 860px;
+top: -110px;
+}
+.dot2 {
+  position: absolute;
+left: 470px;
+bottom: -30px;
+}
+.leftAnd_right {
+  display: flex;
+}
+.left {
+  width: 70%;
+}
+.left,
+image {
+  z-index: 1;
+  padding-bottom: 60px;
+}
+.right {
+  width: 50%;
+}
+.right h3 {
+  font-size: 64px;
+  width: 437px;
+  height: 162px;
+  line-height: 80px;
+  margin-top: 70px;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
+}
+.right p {
+  margin-top: 40px;
+  font-size: 24px;
+  padding-right: 130px;
+  line-height: 35px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+#id,
+image {
+  position: absolute;
+  left: 830px;
+  margin-bottom: 900px;
+  transform: translateY(-50%);
+}
+/* .......................................................................All Midle Part End  ............................................................................*/
+
+
+/* .......................................................................All navbar Start  ..............................................................................*/
+#navbar {
+  background-color: #CFA485;
+  z-index: 3;
+  height: 700px;
+}
+.leftSide_middleSide_rightSide {
+  display: flex;
+}
+.leftSide {
+  width: 40%;
+  padding-top: 20px;
+  padding-left: 80px;
+}
+.leftSide h4 {
+  line-height: 90px;
+  font-size: 64px;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
+  color: white;
+}
+.leftSide p {
+  padding-right: 60px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
+  color: white;
+}
+.leftSide,h4,p {
+  padding-bottom: 40px;
+}
+.leftSide button {
+  padding: 20px 70px;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  transition: .4s;
+}
+.leftSide button:hover {
+  background-color: white;
+  color: blue;
+}
+
+.middleSide {
+  width: 37%;
+  padding-top: 56px;
+}
+.rightSide {
+  width: 30%;
+  padding-top: 56px;
+}
+/* ...............................................................All Navbar End  ..........................................................................*/
